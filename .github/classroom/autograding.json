@@ -9,16 +9,6 @@
       "comparison": "included",
       "timeout": 10,
       "points": null
-    },
-    {
-      "name": "Run ctest",
-      "setup": "",
-      "run": ".scripts/dr.sh \"cd build; ctest -N; ctest --output-on-failure\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
     }
   ]
 }
